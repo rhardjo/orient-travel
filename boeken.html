@@ -1,0 +1,196 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Orient Travel</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable= no">
+		<link rel="stylesheet" type="text/css" href="./resources/css/simplegrid.css" />
+		<link rel="stylesheet" type="text/css" href="./resources/css/travel.css" />
+	</head>
+
+	<body>
+
+		<header class="header default-skin demo">
+			<div class="grid">
+				<div class="col-2-12">
+					<div class="content" id="logo">
+						<h1><a href="index.html">OrientTravel</a></h1>
+					</div>
+				</div>
+				<nav class="col-8-12 nav">
+					<ul class="content">
+	            		<li><a href="bestemmingen.html">Bestemmingen</a></li>
+	                    <li><a href="reizen.html">Reizen</a></li>
+	                    <li class="active"><a href="boeken.html">Boeken</a></li>
+	            		<li><a href="contact.html">Contact</a></li>
+                	</ul>
+				</nav>
+				<div class="col-2-12">
+					<div class="content tel">
+						<p>Tel: 030-1234567<p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<h2 class="kop">Reis Boeken</h2>
+			<div class="grid grid-pad">
+				<div class="col-1-1">
+					<div class="content">
+						<form action="thanks.html" class="boekform">
+							<fieldset class="grid grid-pad">
+								<div class="col-1-2">
+									<h2>Persoonlijke gegevens</h2>
+									<div class="formlabel">
+										<label>Voornaam</label>
+										<div class="input">
+											<input  id="vnaam" name="vnaam" required>
+										</div>
+									</div>
+									<div class="formlabel">
+										<label>Achternaam</label>
+										<div class="input">
+											<input  id="anaam" name="anaam" required>
+										</div>
+									</div>							
+									<div class="formlabel">
+										<label>Straat + huisnummer</label>
+										<div class="input">
+											<input  id="straat" name="straat" required>
+										</div>
+									</div>
+									<div class="formlabel">
+										<label>Postcode</label>
+										<div class="input">
+											<input  id="postcode" name="postcode" required>
+										</div>
+									</div>
+									<div class="formlabel">
+										<label>Woonplaats</label>
+										<div class="input">
+											<input  id="woonplaats" name="woonplaats" required>
+										</div>
+									</div>
+									<div class="formlabel">
+										<label>Email</label>
+										<div class="input">
+											<input type="text" id="email" name="email" required>	
+										</div>
+									</div>
+								</div>
+
+								<div class="col-1-2">
+									<h2>Reis gegevens</h2>
+									<div class="formlabel">
+										<label for="bestemming">Bestemming</label>
+									<div class="input">
+										<select  id="bestemming" name="bestemming">
+											<option value="Bangladesh">Bangladesh</option>
+											<option value="Bhutan">Bhutan</option>
+											<option value="Brunei">Brunei</option>
+											<option value="Cambodja">Cambodja</option>
+											<option value="China">China</option>
+											<option value="Filipijnen">Filipijnen</option>
+											<option value="India">India</option>
+											<option value="Indonesië">Indonesië</option>
+											<option value="Japan">Japan</option>
+											<option value="Laos">Laos</option>
+											<option value="Maleisië">Maleisië</option>
+											<option value="Mongolië">Mongolië</option>
+											<option value="Nepal">Nepal</option>
+											<option value="Noord-Korea">Noord-Korea</option>
+											<option value="Oost-Timor">Oost-Timor</option>
+											<option value="Rusland">Rusland</option>
+											<option value="Singapore">Singapore</option>
+											<option value="Sri Lanka">Sri Lanka</option>
+											<option value="Thailand">Thailand</option>
+											<option value="Turkije">Turkije</option>
+											<option value="Vietnam">Vietnam</option>
+											<option value="Zuid-Korea">Zuid-Korea</option>
+										</select>
+									</div>									
+									</div>
+									<div class="formlabel">
+										<label for="vertrek">Vertrekdatum</label>
+										<div class="input">
+											<select id="vertrek" name="vertrek">
+												<option value="vertrek1">17-12-2013</option>
+												<option value="vertrek2">21-12-2013</option>	
+												<option value="vertrek3">27-12-2013</option>	
+												<option value="vertrek4">5-1-2014</option>
+												<option value="vertrek5">9-1-2014</option>
+												<option value="vertrek6">13-1-2014</option>
+												<option value="vertrek7">19-1-2014</option>
+												<option value="vertrek8">22-1-2014</option>	
+											</select>	
+										</div>										
+									</div>
+									<div class="formlabel">
+										<label for="dagen">Aantal Dagen</label>
+										<div class="input">
+											<select id="dagen" name="dagen">
+												<option value="7dagen">7 Dagen</option>
+												<option value="8dagen">8 Dagen</option>	
+												<option value="9dagen">9 Dagen</option>	
+												<option value="10dagen">10 Dagen</option>
+												<option value="11dagen">11 Dagen</option>
+												<option value="12dagen">12 Dagen</option>
+												<option value="13dagen">13 Dagen</option>
+												<option value="14dagen">14 Dagen</option>
+												<option value="15dagen">15 Dagen</option>		
+											</select>
+										</div>											
+									</div>
+									<div class="formlabel">
+										<label for="soort">Soort Reis</label>
+										<div class="input">
+											<select id="soort" name="soort">
+												<option value="familiereis">Familiereis</option>
+												<option value="groepsreis">Groepsreis</option>	
+												<option value="rondreis">Rondreis</option>	
+												<option value="festivalreis">Festivalreis</option>	
+											</select>
+										</div>									
+									</div>
+									<div class="formlabel">
+										<label for="aantal">Aantal Personen</label>
+										<div class="input">
+											<select id="aantal" name="aantal">
+												<option>1</option>
+												<option value="2">2</option>	
+												<option value="3">3</option>	
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+												<option value="8">8</option>
+												<option value="9">9</option>
+												<option value="10">10</option>	
+												<option value="meer">meer dan 10</option>
+											</select>
+										</div>																			
+									</div>
+									<textarea rows="8"  id="opmerking" name="opmerking"></textarea>
+									<input type="submit" value="Boeken" class="submit">	
+								</div>
+							</fieldset>				
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="grid grid-pad">
+				<div class="col-1-1">
+					<div class="content footername">
+						By Rano Hardjosemito. 
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+</html>
